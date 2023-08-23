@@ -1,0 +1,152 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* google font */
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* tailwind css */
+:root {
+  --width: 1542px;
+  --primary-font: "Inter", sans-serif;
+  --header-bg-color: #eaf4fc;
+  --category-bg: #f7fafc;
+  --category-box-color: #ffecdb;
+  --category-text-color: #000000;
+  --notes-bg-color: #f2f2f2;
+  --notes-headingText-color: #000080;
+  --notes-subText-color: #0066cc;
+  --white-color: #ffffff;
+  --btn-bg: #000066;
+  --gradient-background: linear-gradient(
+    135deg,
+    #003 0%,
+    #006 50.52%,
+    #009 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--primary-font);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+li,
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+.common_btn {
+  background: var(--gradient-background);
+}
+.cross_btn:hover {
+  color: #000000 !important;
+  cursor: pointer;
+}
+.paragraph {
+  line-height: 50px;
+}
+
+.notes {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.color_box .widget-svg {
+  background: #d0f3cb;
+}
+.color_box1 .widget-svg {
+  background: #fff8bf;
+}
+.color_box2 .widget-svg {
+  background: #f7caff;
+}
+.color_box3 .widget-svg {
+  background: #fef4e1;
+}
+.color_box4 .widget-svg {
+  background: #fee1e1;
+}
+.color_box5 .widget-svg {
+  background: #fff8bf;
+}
+.text-hero {
+  line-height: 60px !important;
+}
+.widget-svg {
+  width: 26px !important;
+  height: 26px !important;
+  transition: transform 0.2s ease-in-out 0s;
+  border-radius: 4px;
+  padding: 3px;
+}
+.round {
+  width: 7px;
+  height: 7px;
+  background-color: #43a047;
+  border-radius: 100%;
+}
+
+.round1 {
+  width: 7px;
+  height: 7px;
+  background-color: #fcd700;
+  border-radius: 100%;
+}
+.round2 {
+  width: 7px;
+  height: 7px;
+  background-color: #7b1fa2;
+  border-radius: 100%;
+}
+.round3 {
+  width: 7px;
+  height: 7px;
+  background-color: #ff7a00;
+  border-radius: 100%;
+}
+.round4 {
+  width: 7px;
+  height: 7px;
+  background-color: #43a047;
+  border-radius: 100%;
+}
+.round5 {
+  width: 7px;
+  height: 7px;
+  background-color: #fcd700;
+  border-radius: 100%;
+}
+.modal {
+  position: "absolute";
+  width: 654px;
+}
+.modal_btn {
+  background: var(--gradient-background);
+  color: white;
+}
+
+.close_modal:hover {
+  color: #000 !important;
+}
+.close_modal {
+  color: #d6d6d6 !important;
+}
