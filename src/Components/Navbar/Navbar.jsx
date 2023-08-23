@@ -77,7 +77,7 @@ export default function Navbar() {
               </div>
               <div className="2xl:py-0 xl:py-0 lg:py-0 py-5 flex justify-center items-center">
                 <button
-                  className="common_btn px-10 py-3 rounded-full  text-[#fff] font-semibold m-0 border-none outline-none"
+                  className="common_btn px-4 py-3 rounded-full  text-[#fff] font-semibold m-0 border-none outline-none"
                   onClick={() => {
                     setOpen(true);
                   }}
