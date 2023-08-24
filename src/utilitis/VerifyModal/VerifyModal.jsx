@@ -53,45 +53,45 @@ export default function VerifyModal({
                     <div className="input_filed pb-[23px] flex items-center  gap-[15px]">
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                       <input
                         type="text"
-                        name="email"
-                        id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
+                        name="number"
+                        id="number"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg "
                       />
                     </div>
 
