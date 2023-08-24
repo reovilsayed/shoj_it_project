@@ -47,7 +47,7 @@ export default function FinalModal({
                     confiance !
                   </p>
 
-                  <form action="submit">
+                  <form action="#">
                     {/* button */}
                     <div
                       className="pb-[93px]"

@@ -56,7 +56,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
@@ -115,7 +115,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
@@ -173,7 +173,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
@@ -231,7 +231,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
@@ -289,7 +289,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
@@ -347,7 +347,7 @@ export default function Notices() {
           <div className="w-full h-[2px] bg-[#EDEDFF] "></div>
 
           {/* button */}
-          <div className="flex items-center justify-between  px-[25px] py-[24px]">
+          <div className="flex items-center justify-between  px-[25px] py-[13px]">
             <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis

@@ -5,6 +5,8 @@ import {
   HiOutlineArrowNarrowLeft,
   HiOutlineArrowNarrowRight,
 } from "react-icons/hi";
+import AutoComPleted from "../../utilitis/AutoCompleted/AutoComPleted";
+import Text from "../../utilitis/Text/Text";
 export default function HeroSection() {
   const [show, setShow] = useState(false);
   console.log(show);
@@ -29,99 +31,12 @@ export default function HeroSection() {
             </p>
             <form
               onChange={handelChange}
-              className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px]"
+              className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px] "
             >
-              <div
-                className={`2xl:w-[456px] xl:w-[456px] lg:w-[456px] w-[300px] h-[65px] bg-[#FFFFFF] border-[3px]  border-[#000066] rounded-full overflow-hidden flex justify-center `}
-              >
-                <input
-                  type="text"
-                  name="text"
-                  id=""
-                  ref={handelInput}
-                  placeholder="Recherchez un établissement... (Boutiques, Restaurants, etc.)"
-                  className=" outline-none w-[456px] py-3  px-5"
-                />
-                <div className=" hidden">
-                  <div className="flex px-5 justify-between items-center pt-10">
-                    <li>
-                      <h2 className="text-[16px] font-bold">ZARA</h2>
-                      <p className="text-[#D2D2D2] text-[13px] font-medium pt-[3px]">
-                        zara.com/tn
-                      </p>
-                    </li>
-                    <div className="flex gap-3 items-center">
-                      <div className="flex bg-[#FFF8BF]">
-                        <AiFillStar color="#FCD700" />
-                        <p className=" font-medium text-[13px]">2.9/5</p>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <span className="w-[10px] h-[10px] bg-[#FCD700] rounded-full block"></span>
-                        <p className=" font-medium text-[13px]">253 avis</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex px-5 justify-between items-center py-3">
-                    <li>
-                      <h2 className="text-[16px] font-bold">ZARA</h2>
-                      <p className="text-[#D2D2D2] text-[13px] font-medium pt-[3px]">
-                        zara.com/tn
-                      </p>
-                    </li>
-                    <div className="flex gap-3 items-center">
-                      <div className="flex bg-[#FFF8BF]">
-                        <AiFillStar color="#FCD700" />
-                        <p className=" font-medium text-[13px]">2.9/5</p>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <span className="w-[10px] h-[10px] bg-[#FCD700] rounded-full block"></span>
-                        <p className=" font-medium text-[13px]">253 avis</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex px-5 justify-between items-center py-3">
-                    <li>
-                      <h2 className="text-[16px] font-bold">ZARA</h2>
-                      <p className="text-[#D2D2D2] text-[13px] font-medium pt-[3px]">
-                        zara.com/tn
-                      </p>
-                    </li>
-                    <div className="flex gap-3 items-center">
-                      <div className="flex bg-[#FFF8BF]">
-                        <AiFillStar color="#FCD700" />
-                        <p className=" font-medium text-[13px]">2.9/5</p>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <span className="w-[10px] h-[10px] bg-[#FCD700] rounded-full block"></span>
-                        <p className=" font-medium text-[13px]">253 avis</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex px-5 justify-between items-center py-3">
-                    <li>
-                      <h2 className="text-[16px] font-bold">ZARA</h2>
-                      <p className="text-[#D2D2D2] text-[13px] font-medium pt-[3px]">
-                        zara.com/tn
-                      </p>
-                    </li>
-                    <div className="flex gap-3 items-center">
-                      <div className="flex bg-[#FFF8BF]">
-                        <AiFillStar color="#FCD700" />
-                        <p className=" font-medium text-[13px]">2.9/5</p>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <span className="w-[10px] h-[10px] bg-[#FCD700] rounded-full block"></span>
-                        <p className=" font-medium text-[13px]">253 avis</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 mt-5">
-                <button className="w-[230px] h-[65px] common_btn rounded-full text-white flex justify-center items-center text-[16px] font-semibold gap-1">
-                  Laissez votre avis
-                  <HiOutlineArrowNarrowRight color="" size="28px" />
-                </button>
+              <Text />
+              <div className="flex items-center gap-1 w-[230px] h-[80px] common_btn rounded-full text-white justify-center font-semibold text-[16px]">
+                <button>Laissez votre avis</button>
+                <HiOutlineArrowNarrowRight size="28px" />
               </div>
             </form>
           </div>
