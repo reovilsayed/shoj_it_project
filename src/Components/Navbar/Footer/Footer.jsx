@@ -66,8 +66,8 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="w-full h-[1px] bg-[#FFFFFF] mb-[10px] mt-[61px]"></div>
-            <div className="flex justify-between items-center pt-[21px] pb-[21px]">
+            <div className="w-full h-[1px] bg-[#FFFFFF] mb-[10px] mt-[50px]"></div>
+            <div className="flex justify-between items-center pt-[0px] pb-[5px]">
               <div className="flex items-center justify-center">
                 <p className="flex items-center leading-6 text-white text-[12px] font-medium">
                   &copy;2023 Noty - Tous droits réservés. | Conçu et Développé

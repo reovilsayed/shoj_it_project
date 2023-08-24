@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import heroPic from "../../assets/Logo/Header reviews.svg";
 import { AiFillStar } from "react-icons/ai";
 import {
@@ -6,24 +6,39 @@ import {
   HiOutlineArrowNarrowRight,
 } from "react-icons/hi";
 export default function HeroSection() {
+  const [show, setShow] = useState(false);
+  console.log(show);
+  const handelInput = useRef();
+  const handelChange = () => {
+    const value = handelInput.current.value;
+    if (value.length > -1) {
+      setShow(true);
+    }
+  };
   return (
     <div className="pt-[94px] bg-[#EAF4FC]">
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w--[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 ">
         <div className="hero_wrapper flex 2xl:pb-10 xl:pb-10 lg:pb-10 pb-5">
           <div className="hero_description 2xl:w-1/2 xl:w-1/2 lg:w-1/2">
-            <h4 className="paragraph 2xl:text-[42px] xl:text-[42px] lg:text-[42px] text-[24px] text-[#000066] font-bold 2xl:pb-[40px] ">
+            <p className="paragraph 2xl:text-[48px] xl:text-[48px] lg:text-[42px] text-[24px] text-[#000066] font-bold 2xl:pb-[40px] 2xl:w-[867px]">
               Noty - Votre guide de confiance pour les services et produits en
               Tunisie.{" "}
-            </h4>
-            <p className="2xl:pt-[40px] xl:pt-[40px] lg:pt-[40px] pt-5 2xl:text-[24px] xl:text-[24px] lg:-[24px] text-[18px] leading-6 text-[#667799] font-semibold pb-[116px]">
+            </p>
+            <p className="2xl:pt-[10px] xl:pt-[40px] lg:pt-[40px] pt-5 2xl:text-[24px] xl:text-[24px] lg:-[24px] text-[18px] leading-6 text-[#667799] font-semibold pb-[116px]">
               Trouvez les meilleurs produits et services en un seul endroit.
             </p>
-            <div className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px]">
-              <div className="2xl:w-[456px] xl:w-[456px] lg:w-[456px] w-[300px] h-[65px] bg-[#FFFFFF] border-[3px]  border-[#000066] rounded-full overflow-hidden flex justify-center ">
+            <form
+              onChange={handelChange}
+              className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px]"
+            >
+              <div
+                className={`2xl:w-[456px] xl:w-[456px] lg:w-[456px] w-[300px] h-[65px] bg-[#FFFFFF] border-[3px]  border-[#000066] rounded-full overflow-hidden flex justify-center `}
+              >
                 <input
                   type="text"
                   name="text"
                   id=""
+                  ref={handelInput}
                   placeholder="Recherchez un établissement... (Boutiques, Restaurants, etc.)"
                   className=" outline-none w-[456px] py-3  px-5"
                 />
@@ -108,7 +123,7 @@ export default function HeroSection() {
                   <HiOutlineArrowNarrowRight color="" size="28px" />
                 </button>
               </div>
-            </div>
+            </form>
           </div>
           <div className="hero_pic 2xl:w-1/2 xl:w-1/2 lg:w-1/2 2xl:block xl:block lg:block md:block hidden">
             <img src={heroPic} alt="" />

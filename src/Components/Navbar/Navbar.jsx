@@ -53,13 +53,13 @@ export default function Navbar() {
                 />
               </div>
               <div className="nav_items 2xl:flex xl:flex lg:flex gap-[29px]">
-                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-medium xl:font-medium lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
+                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-semibold xl:font-semibold lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
                   À propos de nous
                 </li>
-                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-medium xl:font-medium lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
+                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-semibold xl:font-semibold lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
                   Catégories
                 </li>
-                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-medium xl:font-medium lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
+                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-semibold xl:font-semibold lg:font-medium text-[#000] 2xl:pl-0 xl:pl-0 lg:pl-0 pl-5 cursor-pointer 2xl:pb-0 xl:pb-0 lg:pb-0 pb-5">
                   Contactez-nous
                 </li>
               </div>
@@ -67,11 +67,11 @@ export default function Navbar() {
             <div className="nav_right_items 2xl:flex xl:flex lg:flex gap-[25px]">
               <div className="flex items-center justify-center 2xl:py-0 xl:py-0 lg:py-0 py-5 gap-[10px]">
                 <img
-                  className="w-[17px] h-[17px] block object-cover"
+                  className="w-[19px] h-[19px] block object-cover"
                   src={people}
                   alt="people"
                 />
-                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-semibold xl:font-semibold lg:font-semibold text-[#006]">
+                <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-bold xl:font-semibold lg:font-semibold text-[#006]">
                   Connexion
                 </li>
               </div>
@@ -117,7 +117,15 @@ export default function Navbar() {
           setOpen={setOpen}
         />
       )}
-      {finalModal && <FinalModal setFinalModal={setFinalModal} />}
+      {finalModal && (
+        <FinalModal
+          setFinalModal={setFinalModal}
+          setOpen={setOpen}
+          setCheckOut={setCheckOut}
+          setVerify={setVerify}
+          setSubModal={setSubModal}
+        />
+      )}
     </div>
   );
 }

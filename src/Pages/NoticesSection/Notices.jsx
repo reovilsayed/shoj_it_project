@@ -148,7 +148,7 @@ export default function Notices() {
                 Concessionnaire de Voitures
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box3">
+                <div className="flex gap-2  items-center py-[20px] color_box3">
                   <StarRatings
                     rating={4}
                     starRatedColor="#7B1FA2"

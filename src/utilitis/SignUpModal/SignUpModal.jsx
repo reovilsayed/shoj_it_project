@@ -16,7 +16,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
         size="30px"
         className="cross_btn hover:rotate-180 duration-500 absolute left-1/2 -translate-x-1/2 top-5"
       />
-      <div className="signUp_container 2xl:px-[141px] 2xl:pt-[72px] xl:pt-[60px] lg:pt-[10px] pt-3 xl:px-[132px] lg:px-[110px] px-[70px] ">
+      <div className="signUp_container 2xl:px-[141px] 2xl:pt-[72px] xl:pt-[60px] lg:pt-[20px] pt-[60px]  xl:px-[132px] lg:px-[110px] px-[70px] ">
         <div>
           <h3 className=" text-[16px] font-semibold text-[#000] 2xl:pb-[14px] xl:pb-3 pb-3 ">
             Connectez-vous à votre compte
@@ -78,7 +78,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
             </div>
             <div className="input_filed ">
               <input
-                type="text"
+                type="password"
                 name="email"
                 id="email"
                 placeholder="Entrez votre mot de passe"
@@ -97,7 +97,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
             {/* check box */}
             {/* button */}
             <div
-              className=" 2xl:pb-[71px] xl:pb-10"
+              className=" 2xl:pb-[71px] xl:pb-10 pb-[50px]"
               onClick={() => {
                 setOpen(false);
                 setSubModal(true);

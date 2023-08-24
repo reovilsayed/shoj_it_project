@@ -8,10 +8,10 @@ export default function CategorySection() {
         <div>
           <div className="category_heading lg:flex justify-between items-center">
             <div>
-              <h2 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] text-[#000] font-semibold pb-[18px]">
+              <h2 className="2xl:text-[36px] xl:text-[32px] lg:text-[32px] text-[#000] font-semibold pb-[18px]">
                 Explorez par Catégorie
               </h2>
-              <p className="text-[#4F637B] font-medium leading-6 text-[16px]">
+              <p className="text-[#4F637B] font-medium leading-6 text-[17px]">
                 Découvrez les entreprises et produits les mieux notés dans
                 chaque catégorie et trouvez exactement ce que vous cherchez.
               </p>

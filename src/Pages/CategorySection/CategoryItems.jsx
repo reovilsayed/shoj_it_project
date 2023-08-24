@@ -11,18 +11,18 @@ import category8 from "../../assets/Category/SVGRepo_iconCarrier (6).png";
 export default function CategoryItems() {
   return (
     <div className="grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1  gap-[45px]">
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category1}
           alt="category1"
         />
-        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] lg:text-[14px] text-[19px] text-[#000]">
+        <h3 className="pt-[22px] font-semibold text-[19px]">
           Hôtels et Maisons d’Hôte
         </h3>
       </div>
       {/* 2 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category2}
@@ -33,7 +33,7 @@ export default function CategoryItems() {
         </h3>
       </div>
       {/* 3 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] py-[35px] px-[30px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category3}
@@ -44,7 +44,7 @@ export default function CategoryItems() {
         </h3>
       </div>
       {/* 4 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category7}
@@ -56,7 +56,7 @@ export default function CategoryItems() {
       </div>
       {/* 5 */}
 
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category4}
@@ -67,7 +67,7 @@ export default function CategoryItems() {
         </h3>
       </div>
       {/* 6 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category5}
@@ -78,7 +78,7 @@ export default function CategoryItems() {
         </h3>
       </div>
       {/* 7 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category6}
@@ -89,7 +89,7 @@ export default function CategoryItems() {
         </h3>
       </div>
       {/* 8 */}
-      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] p-[28px]">
+      <div className="single_items bg-[var(--category-box-color)] rounded-[13px] w-[352px] h-[139px] pl-[21px] pt-[26px]">
         <img
           className="2xl:w-[49px] 2xl:h-[49px] w-[54px] h-[54px] object-cover block"
           src={category8}

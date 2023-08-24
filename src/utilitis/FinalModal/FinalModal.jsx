@@ -4,7 +4,12 @@ import { RxCross2 } from "react-icons/rx";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 import logo from "../../assets/Logo/bbbcc63f-011b-4dd3-bad0-e19625de2de3 1.png";
 
-export default function FinalModal({ setFinalModal }) {
+export default function FinalModal({
+  setFinalModal,
+  setOpen,
+  setCheckOut,
+  setSubModal,
+}) {
   return (
     <div>
       <div className="relative">
@@ -17,7 +22,7 @@ export default function FinalModal({ setFinalModal }) {
             <div className=" cursor-pointer ">
               <RxCross2
                 onClick={() => {
-                  setFinalModal(false);
+                  setSubModal(false);
                 }}
                 color="#D6D6D6"
                 size="30px"
@@ -32,7 +37,7 @@ export default function FinalModal({ setFinalModal }) {
                       alt=""
                     />
                   </div>
-                  <h3 className=" text-[16px] font-semibold text-[#000] pb-[14px]">
+                  <h3 className="text-[16px] w-[380px] font-semibold text-[#000] pb-[14px]">
                     Votre mot de passe a été réinitialisé avec succès.
                   </h3>
                   <p className="text-[#666] font-medium text-[14px] pb-[47px] leading-5">
@@ -42,7 +47,7 @@ export default function FinalModal({ setFinalModal }) {
                     confiance !
                   </p>
 
-                  <form action="#">
+                  <form action="submit">
                     {/* button */}
                     <div
                       className="pb-[93px]"
@@ -51,7 +56,10 @@ export default function FinalModal({ setFinalModal }) {
                         setVerify(true);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
+                      <button
+                        type="submit"
+                        className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] "
+                      >
                         Se connecter
                       </button>
                     </div>

@@ -35,7 +35,7 @@ export default function CheckOutModal({ setCheckOut, setFinalModal, setOpen }) {
                     et répond aux exigences de sécurité.
                   </p>
 
-                  <form action="#">
+                  <div>
                     <div>
                       <label
                         htmlFor=" e-mail"
@@ -84,7 +84,7 @@ export default function CheckOutModal({ setCheckOut, setFinalModal, setOpen }) {
                       </button>
                     </div>
                     {/* button */}
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

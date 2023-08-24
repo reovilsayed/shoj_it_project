@@ -41,7 +41,7 @@ export default function VerifyModal({
                     votre mot de passe.
                   </p>
 
-                  <form action="#">
+                  <div>
                     <div>
                       <label
                         htmlFor=" e-mail"
@@ -122,7 +122,7 @@ export default function VerifyModal({
                       </button>
                     </div>
                     {/* button */}
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

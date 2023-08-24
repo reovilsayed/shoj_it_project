@@ -35,7 +35,7 @@ export default function SubModal2({ setSubModal, setOpen, setVerify }) {
                     passe.
                   </p>
 
-                  <form action="#">
+                  <div action="#">
                     <div>
                       <label
                         htmlFor=" e-mail"
@@ -81,7 +81,7 @@ export default function SubModal2({ setSubModal, setOpen, setVerify }) {
                       </button>
                     </div>
                     {/* button */}
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>

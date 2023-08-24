@@ -8,10 +8,10 @@ export default function NoticesSection() {
         <div>
           <div className="category_heading flex justify-between items-center">
             <div>
-              <h2 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] text-[#000080] font-semibold pb-[18px]">
+              <h2 className="2xl:text-[36px] xl:text-[32px] lg:text-[32px] text-[#000] font-semibold pb-[18px]">
                 Entreprises les mieux notées
               </h2>
-              <p className="text-[#0066CC] font-medium leading-6 text-[16px]">
+              <p className="text-[#0066CC] font-medium leading-6 text-[17px]">
                 Plongez dans notre sélection des entreprises les mieux évaluées
                 et les plus recommandées par nos utilisateurs satisfaits.
               </p>
