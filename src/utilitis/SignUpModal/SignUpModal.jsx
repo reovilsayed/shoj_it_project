@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export default function SignUpModal({ setOpen, setSubModal }) {
   return (
@@ -72,13 +73,16 @@ export default function SignUpModal({ setOpen, setSubModal }) {
                 className="py-[11px] px-[25px] w-full ring rounded-full ring-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
               />
             </div>
-            <div>
+            <div className="flex items-center justify-between">
               <label
                 htmlFor=" e-mail"
                 className="text-[14px] text-[#000] font-semibold pb-[10px] block"
               >
                 Mot de passe
               </label>
+              <a className="text-[13px] font-medium text-[#333333] underline">
+                Oublié?
+              </a>
             </div>
             <div className="input_filed ">
               <input
