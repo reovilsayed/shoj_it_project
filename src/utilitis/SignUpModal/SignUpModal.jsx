@@ -26,25 +26,17 @@ export default function SignUpModal({ setOpen, setSubModal }) {
           </p>
           {/* facebook btn */}
           <div className="flex relative pb-[15px]">
-            <FaFacebook
-              size="28px"
-              color="#1877F2"
-              className=" absolute left-2 top-[12px]"
-            />
-            <button className=" w-full py-[14px] ring ring-[#CFCFCF] rounded-full px-2 text-center">
-              Continuer avec Facebook
+            <button className=" w-full py-[14px] border border-[#CFCFCF] rounded-full px-2 text-center flex items-center">
+              <FaFacebook size="28px" color="#1877F2" className="" />
+              <span className="flex-1"> Continuer avec Facebook</span>
             </button>
           </div>
           {/* facebook btn */}
           {/* google */}
           <div className="flex relative 2xl:pb-[15px]">
-            <FcGoogle
-              size="28px"
-              color="#1877F2"
-              className=" absolute left-2 top-[12px]"
-            />
-            <button className=" w-full py-[14px] ring ring-[#CFCFCF] rounded-full px-2 text-center">
-              Continuer avec Google
+            <button className=" w-full py-[14px] ring ring-[#CFCFCF] rounded-full px-2 text-center flex items-center">
+              <FcGoogle size="28px" color="#1877F2" />
+              <span className="flex-1"> Continuer avec Google</span>
             </button>
           </div>
           {/* google */}
