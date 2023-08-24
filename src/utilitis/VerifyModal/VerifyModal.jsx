@@ -55,43 +55,43 @@ export default function VerifyModal({
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                       <input
                         type="text"
                         name="email"
                         id="email"
-                        className="w-[40px] h-[46px] border border-[#CFCFCF] border-none  rounded-lg px-5"
+                        className="w-[40px] h-[46px] border border-[#CFCFCF]   rounded-lg px-5"
                       />
                     </div>
 

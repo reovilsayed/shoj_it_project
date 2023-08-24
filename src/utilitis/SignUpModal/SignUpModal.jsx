@@ -62,7 +62,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
                 name="email"
                 id="email"
                 placeholder="Entrez votre adresse e-mail"
-                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
               />
             </div>
             <div className="flex items-center justify-between">
@@ -82,7 +82,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
                 name="email"
                 id="email"
                 placeholder="Entrez votre mot de passe"
-                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
               />
             </div>
             {/* check box */}
@@ -90,7 +90,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
               <input
                 type="checkbox"
                 name="text"
-                className="h-[18px] w-[18px] border border-[#CFCFCF] border-none outline-none"
+                className="h-[18px] w-[18px] border border-[#CFCFCF]  outline-none"
               />
               <p>Se souvenir de moi</p>
             </div>

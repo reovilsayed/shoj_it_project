@@ -50,7 +50,7 @@ export default function CheckOutModal({ setCheckOut, setFinalModal, setOpen }) {
                         name="email"
                         id="email"
                         placeholder="Entrez votre nouveau mot de passe"
-                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
                     <div>
@@ -67,7 +67,7 @@ export default function CheckOutModal({ setCheckOut, setFinalModal, setOpen }) {
                         name="email"
                         id="email"
                         placeholder="Re-entrez votre nouveau mot de passe"
-                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
 
