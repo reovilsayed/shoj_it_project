@@ -50,7 +50,7 @@ export default function SubModal2({ setSubModal, setOpen, setVerify }) {
                         name="email"
                         id="email"
                         placeholder="Entrez votre adresse e-mail"
-                        className="py-[11px] px-[25px] w-full ring rounded-full ring-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
 

@@ -34,7 +34,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
           {/* facebook btn */}
           {/* google */}
           <div className="flex relative 2xl:pb-[15px]">
-            <button className=" w-full py-[14px] ring ring-[#CFCFCF] rounded-full px-2 text-center flex items-center">
+            <button className=" w-full py-[14px] border border-[#CFCFCF] rounded-full px-2 text-center flex items-center">
               <FcGoogle size="28px" color="#1877F2" />
               <span className="flex-1"> Continuer avec Google</span>
             </button>
@@ -62,7 +62,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
                 name="email"
                 id="email"
                 placeholder="Entrez votre adresse e-mail"
-                className="py-[11px] px-[25px] w-full ring rounded-full ring-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
               />
             </div>
             <div className="flex items-center justify-between">
@@ -82,7 +82,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
                 name="email"
                 id="email"
                 placeholder="Entrez votre mot de passe"
-                className="py-[11px] px-[25px] w-full ring rounded-full ring-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
+                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF] border-none outline-none placeholder:text-[#CFCFCF]"
               />
             </div>
             {/* check box */}
