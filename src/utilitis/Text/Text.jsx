@@ -14,7 +14,7 @@ export default function Text() {
             type="text"
             placeholder="Zara.c"
             className={`px-3 outline-none py-[23px] text-[17px] placeholder:text-[18px] placeholder:font-semibold ${
-              text.length > 0 && "border-b-4 border-[#EFEFEF]"
+              text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
             }  w-full py-3 bg-inherit`}
           />
           {text.length > 0 && (
@@ -60,7 +60,7 @@ export default function Text() {
             </div>
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between px-3 pt-5 pb-3 border-b-4">
+            <div className="flex items-center justify-between px-3 pt-5 pb-3 border-b-[2px]">
               <div>
                 <li className="font-bold text-[16px]">ProZarMax</li>
                 <p className="text-[#D2D2D2] font-medium">prozarmax.tn</p>
@@ -77,7 +77,7 @@ export default function Text() {
             </div>
             {/* 1 */}
             <div className=" flex justify-center items-center pt-5 pb-3">
-              <button className="w-[90%] py-3 text-center text-[#000000]  border-4 border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px]">
+              <button className="w-[90%] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px]">
                 Afficher tous les résultats
                 <LiaLongArrowAltRightSolid size="40px" />
               </button>
