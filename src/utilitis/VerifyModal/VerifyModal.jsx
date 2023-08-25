@@ -10,13 +10,12 @@ export default function VerifyModal({
   setVerify,
   verify,
   setCheckOut,
-  setOpen,
 }) {
   return (
     <div>
       <div className="relative">
         <Modal
-          open={open}
+          open={verify}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
@@ -100,7 +99,7 @@ export default function VerifyModal({
                       className=" pb-[15px] "
                       onClick={() => {
                         setCheckOut(true);
-                        setSubModal(false);
+                        setVerify(false);
                       }}
                     >
                       <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">

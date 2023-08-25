@@ -80,22 +80,22 @@ p {
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.color_box .widget-svg {
+.color_box1 .widget-svg {
   background: #d0f3cb;
 }
-.color_box1 .widget-svg {
+.color_box2 .widget-svg {
   background: #fff8bf;
 }
-.color_box2 .widget-svg {
+.color_box3 .widget-svg {
   background: #f7caff;
 }
-.color_box3 .widget-svg {
+.color_box4 .widget-svg {
   background: #fef4e1;
 }
-.color_box4 .widget-svg {
+.color_box5 .widget-svg {
   background: #fee1e1;
 }
-.color_box5 .widget-svg {
+.color_box6 .widget-svg {
   background: #fff8bf;
 }
 .text-hero {

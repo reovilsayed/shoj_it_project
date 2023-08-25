@@ -6,8 +6,8 @@ export default function Text() {
   const [text, setText] = useState("");
   console.log(text.length);
   return (
-    <div className="2xl:flex justify-center">
-      <div className="2xl:w-[456px]  bg-[#fff] border-4 border-[#000066] rounded-3xl">
+    <div className="2xl:flex justify-center relative">
+      <div className="2xl:w-[456px] xl:w-[300px] lg:w-[300px] md:w-[300px] w-full bg-[#fff] border-4 border-[#000066] rounded-3xl  ">
         <div className=" relative">
           <input
             onChange={(e) => setText(e.target.value)}
@@ -18,7 +18,7 @@ export default function Text() {
             }  w-full py-3 bg-inherit`}
           />
           {text.length > 0 && (
-            <button className=" absolute right-0 top-[6px] rounded-3xl px-5 bg-[#DAE4FF] py-3 text-[#000099] font-semibold">
+            <button className=" absolute right-1 top-[6px] rounded-3xl px-5 bg-[#DAE4FF] py-3 text-[#000099] font-semibold">
               Rechercher
             </button>
           )}

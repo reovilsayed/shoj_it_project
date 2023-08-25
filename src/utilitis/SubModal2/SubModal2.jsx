@@ -5,12 +5,17 @@ import { FcGoogle } from "react-icons/fc";
 import { RxCross2 } from "react-icons/rx";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
-export default function SubModal2({ setSubModal, setOpen, setVerify }) {
+export default function SubModal2({
+  setSubModal,
+  subModal,
+  setVerify,
+  setOpen,
+}) {
   return (
     <div>
       <div className="relative">
         <Modal
-          open={open}
+          open={subModal}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >

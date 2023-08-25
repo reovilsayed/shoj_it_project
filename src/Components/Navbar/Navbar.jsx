@@ -96,35 +96,28 @@ export default function Navbar() {
       {subModal && (
         <SubModal2
           setSubModal={setSubModal}
-          setOpen={setOpen}
+          subModal={subModal}
           setVerify={setVerify}
+          setOpen={setOpen}
         />
       )}
       {verify && (
         <VerifyModal
-          setSubModal={setSubModal}
           setVerify={setVerify}
           verify={verify}
+          setSubModal={setSubModal}
           setCheckOut={setCheckOut}
-          setOpen={setOpen}
         />
       )}
       {checkOut && (
         <CheckOutModal
-          setVerify={setVerify}
-          setFinalModal={setFinalModal}
           setCheckOut={setCheckOut}
-          setOpen={setOpen}
+          checkOut={checkOut}
+          setFinalModal={setFinalModal}
         />
       )}
       {finalModal && (
-        <FinalModal
-          setFinalModal={setFinalModal}
-          setOpen={setOpen}
-          setCheckOut={setCheckOut}
-          setVerify={setVerify}
-          setSubModal={setSubModal}
-        />
+        <FinalModal setFinalModal={setFinalModal} finalModal={finalModal} />
       )}
     </div>
   );

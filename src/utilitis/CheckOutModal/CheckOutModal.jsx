@@ -5,12 +5,16 @@ import { FcGoogle } from "react-icons/fc";
 import { RxCross2 } from "react-icons/rx";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
-export default function CheckOutModal({ setCheckOut, setFinalModal, setOpen }) {
+export default function CheckOutModal({
+  setCheckOut,
+  setFinalModal,
+  checkOut,
+}) {
   return (
     <div>
       <div className="relative">
         <Modal
-          open={open}
+          open={checkOut}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >

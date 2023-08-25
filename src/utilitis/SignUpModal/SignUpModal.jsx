@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
-export default function SignUpModal({ setOpen, setSubModal }) {
+export default function SignUpModal({ setOpen, setSubModal, open }) {
   return (
     <div className=" cursor-pointer relative">
       <RxCross2

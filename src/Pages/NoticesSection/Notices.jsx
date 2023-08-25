@@ -31,7 +31,7 @@ export default function Notices() {
                 Entreprise de vente au détail
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box">
+                <div className="flex gap-2 justify-center items-center py-[20px] color_box1">
                   <StarRatings
                     rating={4.403}
                     starRatedColor="#43A047"
@@ -74,7 +74,7 @@ export default function Notices() {
         </div>
         {/* single notes 1*/}
 
-        {/* single notes 1*/}
+        {/* single notes 2*/}
         <div className="notes bg-[#FFFFFF] rounded-[13px]">
           <div className=" flex gap-[19px] p-[25px]">
             <img
@@ -90,7 +90,7 @@ export default function Notices() {
                 Concessionnaire de Voitures
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box1">
+                <div className="flex gap-2 justify-center items-center py-[20px] color_box2">
                   <StarRatings
                     rating={2.403}
                     starRatedColor="#FCD700"
@@ -132,7 +132,7 @@ export default function Notices() {
           {/* button */}
         </div>
         {/* single notes 1*/}
-        {/* single notes 1*/}
+        {/* single notes 3*/}
         <div className="notes bg-[#FFFFFF] rounded-[13px]">
           <div className=" flex gap-[19px] p-[25px]">
             <img
@@ -148,10 +148,10 @@ export default function Notices() {
                 Concessionnaire de Voitures
               </p>
               <div className="ratting">
-                <div className="flex gap-2  items-center py-[20px] color_box3">
+                <div className="flex gap-2  items-center py-[20px] color_box3 ">
                   <StarRatings
                     rating={4}
-                    starRatedColor="#9121C0"
+                    starRatedColor="#7B1FA2"
                     starDimension="12px"
                     numberOfStars={5}
                     starSpacing="3px"
@@ -190,7 +190,7 @@ export default function Notices() {
           {/* button */}
         </div>
         {/* single notes 1*/}
-        {/* single notes 1*/}
+        {/* single notes 4*/}
         <div className="notes bg-[#FFFFFF] rounded-[13px]">
           <div className=" flex gap-[19px] p-[25px]">
             <img
@@ -206,7 +206,7 @@ export default function Notices() {
                 IT et Communication
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box3">
+                <div className="flex gap-2 justify-center items-center py-[20px] color_box4">
                   <StarRatings
                     rating={2}
                     starRatedColor="#FF7A00"
@@ -248,7 +248,7 @@ export default function Notices() {
           {/* button */}
         </div>
         {/* single notes 1*/}
-        {/* single notes 1*/}
+        {/* single notes 5*/}
         <div className="notes bg-[#FFFFFF] rounded-[13px]">
           <div className=" flex gap-[19px] p-[25px]">
             <img
@@ -264,7 +264,7 @@ export default function Notices() {
                 Services de Taxi et VTC
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box4">
+                <div className="flex gap-2 justify-center items-center py-[20px] color_box5">
                   <StarRatings
                     rating={1}
                     starRatedColor="#EA0000"
@@ -306,7 +306,7 @@ export default function Notices() {
           {/* button */}
         </div>
         {/* single notes 1*/}
-        {/* single notes 1*/}
+        {/* single notes 6*/}
         <div className="notes bg-[#FFFFFF] rounded-[13px]">
           <div className=" flex gap-[19px] p-[25px]">
             <img
@@ -322,7 +322,7 @@ export default function Notices() {
                 Magasin de Vêtements
               </p>
               <div className="ratting">
-                <div className="flex gap-2 justify-center items-center py-[20px] color_box5">
+                <div className="flex gap-2 justify-center items-center py-[20px] color_box6">
                   <StarRatings
                     rating={2}
                     starRatedColor="#FCD700"
