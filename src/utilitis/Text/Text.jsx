@@ -6,14 +6,14 @@ export default function Text() {
   const [text, setText] = useState("");
   console.log(text.length);
   return (
-    <div className="flex justify-center">
-      <div className="w-[456px]  bg-[#fff] border-4 border-[#000066] rounded-3xl">
+    <div className="2xl:flex justify-center">
+      <div className="2xl:w-[456px]  bg-[#fff] border-4 border-[#000066] rounded-3xl">
         <div className=" relative">
           <input
             onChange={(e) => setText(e.target.value)}
             type="text"
             placeholder="Zara.c"
-            className={`px-3 outline-none py-[23px] text-[17px] placeholder:text-[18px] placeholder:font-semibold ${
+            className={`px-3 outline-none 2xl:py-[23px] text-[17px] placeholder:text-[18px] placeholder:font-semibold ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
             }  w-full py-3 bg-inherit`}
           />

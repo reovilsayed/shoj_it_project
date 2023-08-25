@@ -57,7 +57,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
@@ -116,7 +116,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
@@ -174,7 +174,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
@@ -232,7 +232,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
@@ -290,7 +290,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
@@ -348,7 +348,7 @@ export default function Notices() {
 
           {/* button */}
           <div className="flex items-center justify-between  px-[25px] py-[13px]">
-            <button className="py-1 px-7  flex justify-center items-center rounded-full gap-2">
+            <button className="  flex justify-center items-center rounded-full gap-2">
               <li className="text-[15px] text-[#000066] font-medium">
                 Lire les avis
               </li>
