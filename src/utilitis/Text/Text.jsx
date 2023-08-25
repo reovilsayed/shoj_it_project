@@ -11,7 +11,7 @@ export default function Text() {
           text.length < 1 && "h-[65px]"
         } xl:w-[300px] lg:w-[300px] md:w-[300px] w-full  bg-transparent ${
           text.length > 0 && "bg-white shadow shadow-[#000066]"
-        } border-[3px] border-[#000066]   rounded-[28px]`}
+        } border-[2px] border-[#000066]   rounded-[28px]`}
       >
         <div className=" relative">
           <input
