@@ -14,7 +14,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
         }}
         color="#D6D6D6"
         size="30px"
-        className="cross_btn hover:rotate-180 duration-500 absolute left-1/2 -translate-x-1/2 top-5"
+        className="cross_btn absolute right-5 top-2   mt-[16px] hover:rotate-180 duration-500"
       />
       <div className="signUp_container 2xl:px-[141px] 2xl:pt-[72px] xl:pt-[60px] lg:pt-[20px] pt-[60px]  xl:px-[132px] lg:px-[110px] px-[70px] ">
         <div>
