@@ -10,15 +10,15 @@ export default function Text() {
         className={`2xl:w-[456px] ${
           text.length < 1 && "h-[65px]"
         } xl:w-[300px] lg:w-[300px] md:w-[300px] w-full  bg-transparent ${
-          text.length > 0 && "bg-white"
-        } border-[3px] border-[#000066] shadow shadow-[#000066]  rounded-[40px]`}
+          text.length > 0 && "bg-white shadow shadow-[#000066]"
+        } border-[3px] border-[#000066]   rounded-[28px]`}
       >
         <div className=" relative">
           <input
             onChange={(e) => setText(e.target.value)}
             type="text"
             placeholder="Zara.c"
-            className={`px-3 outline-none  text-[17px] placeholder:text-[18px] placeholder:font-semibold bg-transparent h-[55px] ${
+            className={`px-4 outline-none  text-[17px] placeholder:text-[18px] placeholder:font-semibold bg-transparent h-[55px] ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
             }  w-full bg-transparent`}
           />
@@ -31,7 +31,7 @@ export default function Text() {
         {text?.length > 0 && (
           <div className="">
             {/* 1 */}
-            <div className="flex items-center justify-between px-3 hover:bg-[#EEF3FF] duration-200 py-2 ">
+            <div className="flex items-center justify-between  px-1 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
               <div>
                 <li className="font-bold text-[16px] text-[#0D0D0D]">Zara</li>
                 <p className="text-[#D2D2D2] font-medium">zara.com/tn</p>
@@ -48,7 +48,7 @@ export default function Text() {
             </div>
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between px-3 mt-5 hover:bg-[#EEF3FF] duration-200 py-2">
+            <div className="flex items-center justify-between px-1 mt-5 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
               <div>
                 <li className="font-bold text-[16px]">BluZarTech Solutions</li>
                 <p className="text-[#D2D2D2] font-medium">bluzartech.tn</p>
@@ -65,7 +65,7 @@ export default function Text() {
             </div>
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between px-3 mt-5  border-b-[2px] hover:bg-[#EEF3FF] duration-200 py-2">
+            <div className="flex items-center justify-between px-1 mt-5  border-b-[2px] hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
               <div>
                 <li className="font-bold text-[16px]">ProZarMax</li>
                 <p className="text-[#D2D2D2] font-medium">prozarmax.tn</p>
@@ -81,7 +81,7 @@ export default function Text() {
               </div>
             </div>
             {/* 1 */}
-            <div className=" flex justify-center items-center pt-5 pb-3">
+            <div className=" flex justify-center items-center pt-5 pb-3 ">
               <button className="w-[90%] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px]">
                 Afficher tous les résultats
                 <LiaLongArrowAltRightSolid size="40px" />
