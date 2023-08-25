@@ -66,11 +66,7 @@ export default function Navbar() {
             </div>
             <div className="nav_right_items 2xl:flex xl:flex lg:flex gap-[25px]">
               <div className="flex items-center justify-center 2xl:py-0 xl:py-0 lg:py-0 py-5 gap-[10px]">
-                <img
-                  className="w-[17px] h-[17px] block object-cover"
-                  src={people}
-                  alt="people"
-                />
+                <img className="w-[17px] h-[17px]" src={people} alt="people" />
                 <li className="2xl:text-[15px] xl:text-[15px] lg:text-[15px] 2xl:font-bold xl:font-semibold lg:font-semibold text-[#006]">
                   Connexion
                 </li>
