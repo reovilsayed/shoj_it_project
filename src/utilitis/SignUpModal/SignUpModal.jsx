@@ -58,7 +58,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
             </div>
             <div className="input_filed pb-[17px]">
               <input
-                type="text"
+                type="email"
                 name="email"
                 id="email"
                 placeholder="Entrez votre adresse e-mail"
@@ -67,7 +67,7 @@ export default function SignUpModal({ setOpen, setSubModal }) {
             </div>
             <div className="flex items-center justify-between">
               <label
-                htmlFor=" e-mail"
+                htmlFor="Password"
                 className="text-[14px] text-[#000] font-semibold pb-[10px] block"
               >
                 Mot de passe
@@ -79,8 +79,8 @@ export default function SignUpModal({ setOpen, setSubModal }) {
             <div className="input_filed ">
               <input
                 type="password"
-                name="email"
-                id="email"
+                name="password"
+                id="password"
                 placeholder="Entrez votre mot de passe"
                 className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
               />

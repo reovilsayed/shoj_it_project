@@ -26,12 +26,12 @@ export default function HeroSection() {
               Noty - Votre guide de confiance pour les services et produits en
               Tunisie.{" "}
             </p>
-            <p className="2xl:pt-[10px] xl:pt-[40px] lg:pt-[40px] pt-5 2xl:text-[24px] xl:text-[24px] lg:-[24px] text-[18px] leading-6 text-[#667799] font-semibold pb-[116px]">
+            <p className=" 2xl:text-[24px] xl:text-[24px] lg:-[24px] text-[18px] leading-6 text-[#667799] font-semibold">
               Trouvez les meilleurs produits et services en un seul endroit.
             </p>
             <form
               onChange={handelChange}
-              className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px] "
+              className="2xl:flex xl:flex lg:flex md:flex items-center gap-[15px] pt-[116px]"
             >
               <Text />
               <div className="flex items-center gap-1 w-[230px] h-[80px] common_btn rounded-full text-white justify-center font-semibold text-[16px]">

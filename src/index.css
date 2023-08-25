@@ -24,6 +24,7 @@
     #006 50.52%,
     #009 100%
   );
+  --btn-gradient: linear-gradient(#a12c1f, #9c27b0, #562a5e);
 }
 
 * {

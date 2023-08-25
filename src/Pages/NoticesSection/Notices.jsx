@@ -151,7 +151,7 @@ export default function Notices() {
                 <div className="flex gap-2  items-center py-[20px] color_box3">
                   <StarRatings
                     rating={4}
-                    starRatedColor="#7B1FA2"
+                    starRatedColor="#9121C0"
                     starDimension="12px"
                     numberOfStars={5}
                     starSpacing="3px"

@@ -6,19 +6,19 @@ export default function Text() {
   const [text, setText] = useState("");
   console.log(text.length);
   return (
-    <div className="py-20 flex justify-center">
+    <div className="flex justify-center">
       <div className="w-[456px]  bg-[#fff] border-4 border-[#000066] rounded-3xl">
-        <div className="py-3 relative">
+        <div className=" relative">
           <input
             onChange={(e) => setText(e.target.value)}
             type="text"
-            placeholder="Zara|."
-            className={`px-3 outline-none text-[17px] ${
+            placeholder="Zara.c"
+            className={`px-3 outline-none py-[23px] text-[17px] placeholder:text-[18px] placeholder:font-semibold ${
               text.length > 0 && "border-b-4 border-[#EFEFEF]"
             }  w-full py-3 bg-inherit`}
           />
           {text.length > 0 && (
-            <button className=" absolute right-0 top-2 rounded-3xl px-5 bg-[#DAE4FF] py-3 text-[#000099] font-semibold">
+            <button className=" absolute right-0 top-[6px] rounded-3xl px-5 bg-[#DAE4FF] py-3 text-[#000099] font-semibold">
               Rechercher
             </button>
           )}
