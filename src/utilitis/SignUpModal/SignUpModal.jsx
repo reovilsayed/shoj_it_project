@@ -26,17 +26,23 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
           </p>
           {/* facebook btn */}
           <div className="flex relative pb-[15px]">
-            <button className=" w-full py-[14px] border border-[#CFCFCF] rounded-full px-2 text-center flex items-center">
+            <button className=" w-[372px] h-[46px] border-[1px] border-[#CFCFCF] rounded-full pl-[12px]  text-center flex items-center justify-center">
               <FaFacebook size="28px" color="#1877F2" className="" />
-              <span className="flex-1"> Continuer avec Facebook</span>
+              <span className="flex-1 font-semibold text-[15px]">
+                {" "}
+                Continuer avec Facebook
+              </span>
             </button>
           </div>
           {/* facebook btn */}
           {/* google */}
           <div className="flex relative 2xl:pb-[15px]">
-            <button className=" w-full py-[14px] border border-[#CFCFCF] rounded-full px-2 text-center flex items-center">
+            <button className=" w-[372px] h-[46px] border-[1px] border-[#CFCFCF] rounded-full pl-[12px]  text-center flex items-center justify-center">
               <FcGoogle size="28px" color="#1877F2" />
-              <span className="flex-1"> Continuer avec Google</span>
+              <span className="flex-1 font-semibold text-[15px]">
+                {" "}
+                Continuer avec Google
+              </span>
             </button>
           </div>
           {/* google */}
@@ -56,33 +62,33 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
                 Adresse e-mail
               </label>
             </div>
-            <div className="input_filed pb-[17px]">
+            <div className="input_filed w-[372px] h-[46px]">
               <input
                 type="email"
                 name="email"
                 id="email"
                 placeholder="Entrez votre adresse e-mail"
-                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
+                className=" pl-[25px] w-full h-full border-[1px] rounded-full border-[#CFCFCF]  outline-none placeholder:text-[14px] placeholder:text-[#CFCFCF]"
               />
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between pt-[17px] pb-[10px]">
               <label
                 htmlFor="Password"
-                className="text-[14px] text-[#000] font-semibold pb-[10px] block"
+                className="text-[14px] text-[#000] font-semibold  block"
               >
                 Mot de passe
               </label>
-              <a className="text-[13px] font-medium text-[#333333] underline">
+              <a className="text-[13px] font-medium text-[#333333] underline ">
                 Oublié?
               </a>
             </div>
-            <div className="input_filed ">
+            <div className="input_filed w-[372px] h-[46px]">
               <input
                 type="password"
                 name="password"
                 id="password"
                 placeholder="Entrez votre mot de passe"
-                className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
+                className=" pl-[25px] w-full h-full border-[1px] rounded-full border-[#CFCFCF]  outline-none placeholder:text-[14px] placeholder:text-[#CFCFCF]"
               />
             </div>
             {/* check box */}
@@ -97,13 +103,13 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
             {/* check box */}
             {/* button */}
             <div
-              className=" 2xl:pb-[71px] xl:pb-10 pb-[50px]"
+              className="2xl:pb-0 pb-5"
               onClick={() => {
                 setOpen(false);
                 setSubModal(true);
               }}
             >
-              <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
+              <button className="common_btn 2xl:w-[372px] 2xl:h-[46px] rounded-full w-full h-[46px] text-[#fff] font-semibold text-[15px]  ">
                 Se connecter
               </button>
             </div>

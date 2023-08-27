@@ -16,7 +16,7 @@ export default function Navbar() {
   const [checkOut, setCheckOut] = useState(false);
   const [finalModal, setFinalModal] = useState(false);
   return (
-    <div className="pt-[16px] pb-[16px] bg-[var(--header-bg-color)] cursor-pointer">
+    <div className=" pt-[17px] bg-[var(--header-bg-color)] cursor-pointer">
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
         <div className="2xl:flex xl:flex lg:flex flex justify-between items-center">
           {/* mobile view */}
@@ -73,7 +73,7 @@ export default function Navbar() {
               </div>
               <div className="2xl:py-0 xl:py-0 lg:py-0 py-5 flex justify-center items-center">
                 <button
-                  className="common_btn px-4 py-3 rounded-full  text-[#fff] font-semibold m-0 border-none outline-none"
+                  className="common_btn w-[161px] h-[44px] rounded-full  text-[#fff]  text-[15px] font-semibold  border-none outline-none"
                   onClick={() => {
                     setOpen(true);
                   }}

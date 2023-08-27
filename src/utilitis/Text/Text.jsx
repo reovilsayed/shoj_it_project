@@ -7,31 +7,38 @@ export default function Text() {
   return (
     <div className="2xl:flex justify-center relative">
       <div
-        className={`2xl:w-[456px] ${
-          text.length < 1 && "h-[65px]"
+        className={`2xl:w-[456px]  ${
+          text.length === 0 && "h-[65px]"
         } xl:w-[300px] lg:w-[300px] md:w-[300px] w-full  bg-transparent ${
           text.length > 0 && "bg-white shadow shadow-[#000066]"
-        } border-[2px] border-[#000066]   rounded-[28px]`}
+        } border-[2px] border-[#000066] ${
+          text.length > 0 ? "rounded-[28px]" : "rounded-[62px]  "
+        }`}
       >
-        <div className=" relative">
+        <div className={`relative px-[16px] ${text.length > 0 && "px-[16px]"}`}>
           <input
             onChange={(e) => setText(e.target.value)}
             type="text"
             placeholder="Recherchez un établissement... (Boutiques, Restaurants, etc.)"
-            className={`px-4 outline-none  text-[17px] placeholder:text-[15px] placeholder:font-semibold bg-transparent h-[55px] ${
+            className={`outline-none  text-[15px] placeholder:text-[13px] 
+            placeholder:font-medium bg-transparent ${
+              text.length > 0 ? "h-[60px]" : "h-[65px]"
+            } ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
-            }  w-full bg-transparent`}
+            }  w-full bg-transparent  `}
           />
           {text.length > 0 && (
-            <button className=" absolute right-[6px] top-[6px] rounded-3xl px-5 bg-[#DAE4FF] py-[10px] text-[#000099] font-semibold">
+            <button className=" absolute right-[6px] top-[7px] rounded-3xl px-5 bg-[#DAE4FF] py-[10px] text-[#000099] font-semibold">
               Rechercher
             </button>
           )}
         </div>
         {text?.length > 0 && (
-          <div className="">
+          <div className={`px-[16px] ${text.length > 0 && "px-[16px]"}`}>
             {/* 1 */}
-            <div className="flex items-center justify-between  px-1 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto mt-2">
+            <div
+              className={`flex items-center justify-between  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto mt-2 `}
+            >
               <div>
                 <li className="font-bold text-[16px] text-[#0D0D0D]">Zara</li>
                 <p className="text-[#D2D2D2] font-medium">zara.com/tn</p>
@@ -48,7 +55,7 @@ export default function Text() {
             </div>
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between px-1 mt-5 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
+            <div className="flex items-center justify-between  mt-5 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
               <div>
                 <li className="font-bold text-[16px]">BluZarTech Solutions</li>
                 <p className="text-[#D2D2D2] font-medium">bluzartech.tn</p>
@@ -66,7 +73,7 @@ export default function Text() {
 
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between px-1 mt-5  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto ">
+            <div className="flex items-center justify-between mt-5  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto ">
               <div>
                 <li className="font-bold text-[16px]">ProZarMax</li>
                 <p className="text-[#D2D2D2] font-medium">prozarmax.tn</p>
@@ -85,7 +92,7 @@ export default function Text() {
             <hr className="mt-2" />
             {/*  */}
             <div className=" flex justify-center items-center pt-5 pb-3 ">
-              <button className="w-[90%] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px] f">
+              <button className="w-[465px] h-[40px] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px] f">
                 Afficher tous les résultats
                 <LiaLongArrowAltRightSolid size="40px" />
               </button>

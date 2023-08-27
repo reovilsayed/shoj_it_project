@@ -1,5 +1,8 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* roboto */
 /* google font */
 /* tailwind css */
 @tailwind base;
@@ -25,6 +28,7 @@
     #009 100%
   );
   --btn-gradient: linear-gradient(#a12c1f, #9c27b0, #562a5e);
+  --roboto-font: "Roboto", sans-serif;
 }
 
 * {
@@ -102,46 +106,45 @@ p {
   line-height: 60px !important;
 }
 .widget-svg {
-  width: 26px !important;
-  height: 26px !important;
+  width: 20px !important;
+  height: 20px !important;
   transition: transform 0.2s ease-in-out 0s;
-  border-radius: 4px;
-  padding: 3px;
+  border-radius: 5px;
 }
 .round {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #43a047;
   border-radius: 100%;
 }
 
 .round1 {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #fcd700;
   border-radius: 100%;
 }
 .round2 {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #7b1fa2;
   border-radius: 100%;
 }
 .round3 {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #ff7a00;
   border-radius: 100%;
 }
 .round4 {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #ea0000;
   border-radius: 100%;
 }
 .round5 {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background-color: #fcd700;
   border-radius: 100%;
 }
@@ -186,6 +189,9 @@ p {
   height: 65px !important;
   font-size: 18px !important;
   font-weight: 600 !important;
+}
+.footer_text {
+  font-family: var(--roboto-font) !important;
 }
 /* .DEMO::after {
   position: absolute !important;
