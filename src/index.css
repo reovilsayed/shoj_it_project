@@ -29,6 +29,8 @@
   );
   --btn-gradient: linear-gradient(#a12c1f, #9c27b0, #562a5e);
   --roboto-font: "Roboto", sans-serif;
+  --border: 2px solid #006;
+  --box-shadow: 0px 1px 3px 1px rgba(0, 0, 102, 0.5);
 }
 
 * {
@@ -211,3 +213,7 @@ p {
   padding: 0 5px !important;
   
 } */
+.box_shadow_input {
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+}

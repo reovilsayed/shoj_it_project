@@ -10,7 +10,7 @@ export default function Text() {
         className={`2xl:w-[456px]  ${
           text.length === 0 && "h-[65px]"
         } xl:w-[300px] lg:w-[300px] md:w-[300px] w-full  bg-transparent ${
-          text.length > 0 && "bg-white shadow shadow-[#000066]"
+          text.length > 0 && "bg-white box_shadow_input"
         } border-[2px] border-[#000066] ${
           text.length > 0 ? "rounded-[28px]" : "rounded-[62px]  "
         }`}
