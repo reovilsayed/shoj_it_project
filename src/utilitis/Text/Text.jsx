@@ -15,14 +15,15 @@ export default function Text() {
           text.length > 0 ? "rounded-[28px]" : "rounded-[62px]  "
         }`}
       >
-        <div className={`relative px-[16px] ${text.length > 0 && "px-[16px]"}`}>
+        <div className={`relative px-[16px] ${text.length > 0 && "px-[19px]"}`}>
           <input
             onChange={(e) => setText(e.target.value)}
             type="text"
             placeholder="Recherchez un établissement... (Boutiques, Restaurants, etc.)"
-            className={`outline-none  text-[15px] placeholder:text-[13px] 
+            className={`outline-none   placeholder:text-[13px] 
+            text-[18px]
             placeholder:font-medium bg-transparent ${
-              text.length > 0 ? "h-[60px]" : "h-[65px]"
+              text.length > 0 ? "h-[60px]" : "h-[65px] "
             } ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
             }  w-full bg-transparent  `}
@@ -34,10 +35,12 @@ export default function Text() {
           )}
         </div>
         {text?.length > 0 && (
-          <div className={`px-[16px] ${text.length > 0 && "px-[16px]"}`}>
+          <div className={`w-[98%] `}>
             {/* 1 */}
             <div
-              className={`flex items-center justify-between  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto mt-2 `}
+              className={`flex items-center justify-between  hover:bg-[#EEF3FF]  duration-200 rounded-sm py-2 w-[97%] mx-auto mt-2 px-[16px] ${
+                text.length > 0 && "px-[16px]"
+              }`}
             >
               <div>
                 <li className="font-bold text-[16px] text-[#0D0D0D]">Zara</li>
@@ -55,7 +58,11 @@ export default function Text() {
             </div>
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between  mt-5 hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto">
+            <div
+              className={`flex items-center justify-between  mt-5 hover:bg-[#EEF3FF] rounded-sm duration-200 py-2 w-[97%] mx-auto ${
+                text.length > 0 && "px-[16px]"
+              } `}
+            >
               <div>
                 <li className="font-bold text-[16px]">BluZarTech Solutions</li>
                 <p className="text-[#D2D2D2] font-medium">bluzartech.tn</p>
@@ -73,7 +80,11 @@ export default function Text() {
 
             {/* 1 */}
             {/* 1 */}
-            <div className="flex items-center justify-between mt-5  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto ">
+            <div
+              className={`flex items-center justify-between mt-5  hover:bg-[#EEF3FF] duration-200 py-2 w-[97%] mx-auto ${
+                text.length > 0 && "px-[16px]"
+              }`}
+            >
               <div>
                 <li className="font-bold text-[16px]">ProZarMax</li>
                 <p className="text-[#D2D2D2] font-medium">prozarmax.tn</p>
@@ -91,7 +102,7 @@ export default function Text() {
             {/* 1 */}
             <hr className="mt-2" />
             {/*  */}
-            <div className=" flex justify-center items-center pt-5 pb-3 ">
+            <div className=" flex justify-center items-center pt-5 pb-3 px-[16px] ">
               <button className="w-[465px] h-[40px] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px] f">
                 Afficher tous les résultats
                 <LiaLongArrowAltRightSolid size="40px" />
