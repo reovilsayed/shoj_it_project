@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function SignUpModal({ setOpen, setSubModal, open }) {
   return (
-    <div className=" cursor-pointer relative">
+    <div className=" cursor-pointer relative ">
       <RxCross2
         onClick={() => {
           setOpen(false);
@@ -16,7 +16,7 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
         size="30px"
         className="cross_btn absolute right-5 top-2   mt-[16px] hover:rotate-180 duration-500"
       />
-      <div className="signUp_container 2xl:px-[141px] 2xl:pt-[72px] xl:pt-[60px] lg:pt-[20px] pt-[60px]  xl:px-[132px] lg:px-[110px] px-[70px] ">
+      <div className="signUp_container w-[372px] mx-auto pt-[72px]">
         <div>
           <h3 className=" text-[16px] font-semibold text-[#000] 2xl:pb-[14px] xl:pb-3 pb-3 ">
             Connectez-vous à votre compte

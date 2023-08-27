@@ -102,7 +102,7 @@ export default function VerifyModal({
                         setVerify(false);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
+                      <button className="common_btn 2xl:w-[372px] h-[46px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
                         Se connecter
                       </button>
                     </div>
@@ -115,7 +115,7 @@ export default function VerifyModal({
                         setSubModal(true);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] flex justify-center items-center gap-2">
+                      <button className="common_btn  2xl:w-[372px] h-[46px] w-full rounded-full text-[#fff] font-semibold text-[15px] flex justify-center items-center gap-2">
                         <HiOutlineArrowNarrowLeft color="white" size="20px" />
                         Retour à la page de connexion
                       </button>

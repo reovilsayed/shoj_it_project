@@ -13,7 +13,7 @@ export default function FinalModal({ setFinalModal, finalModal }) {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 2xl:w-[654px] xl:w-[654px] lg:w-[654px]  md:w-[654px] w-[90%]    2xl:h-auto h-auto  bg-[#FFF] rounded-lg ">
+          <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 2xl:w-[654px] xl:w-[654px] lg:w-[654px]  md:w-[654px] w-[90%]    2xl:h-auto h-auto  bg-[#FFF] rounded-[16px] ">
             <div className=" cursor-pointer ">
               <RxCross2
                 color="#D6D6D6"
@@ -53,7 +53,7 @@ export default function FinalModal({ setFinalModal, finalModal }) {
                     >
                       <button
                         type="submit"
-                        className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] "
+                        className="common_btn 2xl:w-[372px] h-[46px]  w-full rounded-full text-[#fff] font-semibold text-[15px] "
                       >
                         Se connecter
                       </button>

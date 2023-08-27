@@ -18,7 +18,7 @@ export default function CheckOutModal({
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 2xl:w-[654px] xl:w-[654px] lg:w-[654px]  md:w-[654px] w-[90%]    2xl:h-auto xl:h-[488px] lg:h-[488px] h-auto  bg-[#FFF] rounded-lg ">
+          <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 2xl:w-[654px] xl:w-[654px] lg:w-[654px]  md:w-[654px] w-[90%]    2xl:h-auto xl:h-[488px] lg:h-[488px] h-auto  bg-[#FFF] rounded-[16px] ">
             <div className=" cursor-pointer ">
               <RxCross2
                 onClick={() => {
@@ -54,7 +54,7 @@ export default function CheckOutModal({
                         name="email"
                         id="email"
                         placeholder="Entrez votre nouveau mot de passe"
-                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
+                        className="2xl:w-[372px] h-[46px] pl-[25px] w-full border-[1px]  rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
                     <div>
@@ -71,7 +71,7 @@ export default function CheckOutModal({
                         name="email"
                         id="email"
                         placeholder="Re-entrez votre nouveau mot de passe"
-                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
+                        className="2xl:w-[372px] h-[46px] pl-[25px] w-full border-[1px] rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
 
@@ -83,7 +83,7 @@ export default function CheckOutModal({
                         setFinalModal(true);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
+                      <button className="common_btn 2xl:w-[372px] h-[46px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
                         Réinitialiser le Mot de Passe
                       </button>
                     </div>

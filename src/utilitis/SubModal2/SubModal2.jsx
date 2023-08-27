@@ -29,18 +29,18 @@ export default function SubModal2({
                 size="30px"
                 className="cross_btn absolute right-5 top-2   mt-[16px] hover:rotate-180 duration-500"
               />
-              <div className="signUp_container 2xl:px-[141px] pt-[72px] xl:px-[132px] lg:px-[110px] px-[70px]">
+              <div className="signUp_container pt-[72px] 2xl:px-0 px-10">
                 <div>
-                  <h3 className=" text-[16px] font-semibold text-[#000] pb-[14px]">
+                  <h3 className=" text-[16px] font-semibold text-[#000] pb-[14px] 2xl:w-[372px] w-full mx-auto 2xl:text-start text-start">
                     Besoin d'aide pour récupérer votre compte ?
                   </h3>
-                  <p className="text-[#666] font-medium text-[14px] pb-[47px] leading-5">
+                  <p className="text-[#666] font-medium text-[14px] pb-[47px] leading-5 2xl:w-[372px] w-full mx-auto text-start">
                     Entrez votre adresse e-mail pour recevoir un code de
                     vérification unique (OTP) et réinitialiser votre mot de
                     passe.
                   </p>
 
-                  <div action="#">
+                  <div className=" 2xl:w-[372px] w-full 2xl:h-[46px] h-auto mx-auto">
                     <div>
                       <label
                         htmlFor=" e-mail"
@@ -55,7 +55,7 @@ export default function SubModal2({
                         name="email"
                         id="email"
                         placeholder="Entrez votre adresse e-mail"
-                        className="py-[11px] px-[25px] w-full border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
+                        className="2xl:w-[372px] w-full 2xl:h-[46px] h-[46px] pl-[25px] border rounded-full border-[#CFCFCF]  outline-none placeholder:text-[#CFCFCF]"
                       />
                     </div>
 
@@ -67,20 +67,20 @@ export default function SubModal2({
                         setVerify(true);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] ">
+                      <button className="common_btn  w-full 2xl:h-[46px] h-[46px] rounded-full text-[#fff] font-semibold text-[15px] ">
                         Se connecter
                       </button>
                     </div>
                     {/* button */}
                     {/* button */}
                     <div
-                      className="pb-[72px]"
+                      className="2xl:pb-0 pb-5"
                       onClick={() => {
                         setSubModal(false);
                         setOpen(true);
                       }}
                     >
-                      <button className="common_btn py-[14px] w-full rounded-full text-[#fff] font-semibold text-[15px] flex justify-center items-center gap-2">
+                      <button className="common_btn  w-full h-[46px] rounded-full text-[#fff] font-semibold text-[15px] flex justify-center items-center gap-2">
                         <HiOutlineArrowNarrowLeft color="white" size="20px" />
                         Retour à la page de connexion
                       </button>

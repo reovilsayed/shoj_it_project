@@ -9,7 +9,7 @@ export default function CategorySection() {
         <div>
           <div className="category_heading ">
             <div className="lg:flex justify-between items-center mb-[18px]">
-              <h2 className="2xl:text-[36px] xl:text-[32px] lg:text-[32px] text-[#003] font-semibold  text-center">
+              <h2 className="2xl:text-[36px] xl:text-[32px] lg:text-[32px] text-[#003] font-semibold  ">
                 Explorez par Catégorie
               </h2>
               <div className="flex items-center gap-[10px]">

@@ -35,7 +35,7 @@ export default function HeroSection() {
             >
               <Text />
               <div className="flex items-center gap-1 2xl:w-[230px] w-[230px]   2xl:h-[65px]   common_btn rounded-full text-white justify-center font-semibold text-[16px] 2xl:mt-0 mt-5 2xl:absolute xl:absolute 2xl:left-[470px] xl:left-[330px] 2xl:top-[116px] xl:top-[97px]">
-                <button>Laissez votre avis</button>
+                <button className=" 2xl:p-0 p-5">Laissez votre avis</button>
                 <HiOutlineArrowNarrowRight size="28px" />
               </div>
             </form>
