@@ -8,19 +8,20 @@ import icon4 from "../../../assets/Social Icons/Vector.png";
 
 export default function Footer() {
   return (
-    <div className="bg-[#000033] pt-[73px]">
-      <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
-        <div id="footer">
+    <div className="bg-[#000033]">
+      <div className="nav_container 2xl:w-[1542px] 2xl:h-[386px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
+        <div id="footer ">
           <div>
-            <div className="footer lg:flex justify-between items-center pb-[74px] border-b-[1px] border-[#FFF]">
+            <div className="footer lg:flex justify-between items-center  pt-[84px]">
               <div className="logo">
                 <img className="w-[181.02px] h-[76px]" src={logo} alt="logo" />
-                <p className="w-[336px] pt-[10px] leading-[151.253%] text-[14px] text-[#fff] font-medium footer_text">
+                <p className="w-[336px] h-[84px] flex items-center pt-[10px] leading-[151.253%] text-[14px] text-[#fff] font-medium footer_text">
                   Construisant des ponts entre les consommateurs et les
                   entreprises pour une meilleure expérience de consommation en
                   Tunisie.
                 </p>
               </div>
+
               <div className="footer_list flex flex-wrap gap-[100px] lg:pt-0 pt-5 footer_text">
                 <div>
                   <h2 className="text-[20px] font-medium text-white pb-[33px] footer_text">
@@ -66,8 +67,9 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+            <hr className="w-full h-[1px] bg-[#FFFFFF] mt-[74px] mb-[5px]" />
 
-            <div className="flex justify-between items-center pt-[10px] pb-[10px]">
+            <div className="flex justify-between items-center ">
               <div className="flex items-center justify-center footer_text">
                 <p className="flex items-center  text-white text-[16px] font-medium">
                   &copy;2023 Noty - Tous droits réservés.

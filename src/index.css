@@ -196,25 +196,30 @@ p {
 .footer_text {
   font-family: var(--roboto-font) !important;
 }
-/* .DEMO::after {
-  position: absolute !important;
-  content: "Rechercher";
-  top: 6px;
-  background: #000066;
-  height: 50px !important;
-  width: 140px;
-  color: #dae4ff !important;
-  text-align: center !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 40px;
-  right: 6px;
-  font-weight: 600;
-  padding: 0 5px !important;
-  
-} */
+
 .box_shadow_input {
   box-shadow: var(--box-shadow);
   border: var(--border);
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  -webkit-tap-highlight-color: transparent !important;
+  z-index: -1;
 }

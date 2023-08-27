@@ -21,12 +21,12 @@ export default function Text() {
             type="text"
             placeholder="Recherchez un établissement... (Boutiques, Restaurants, etc.)"
             className={`outline-none   placeholder:text-[13px] 
-            text-[18px]
+         
             placeholder:font-medium bg-transparent ${
-              text.length > 0 ? "h-[60px]" : "h-[65px] "
+              text.length > 0 ? "h-[65px]" : "h-[62px] "
             } ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
-            }  w-full bg-transparent  `}
+            }  w-full bg-transparent  placeholder:text-[#667799] `}
           />
           {text.length > 0 && (
             <button className=" absolute right-[6px] top-[7px] rounded-3xl px-5 bg-[#DAE4FF] py-[10px] text-[#000099] font-semibold">
@@ -100,7 +100,7 @@ export default function Text() {
               </div>
             </div>
             {/* 1 */}
-            <hr className="mt-2" />
+            <hr className="mt-2 w-[410px] mx-auto" />
             {/*  */}
             <div className=" flex justify-center items-center pt-5 pb-3 px-[16px] ">
               <button className="w-[465px] h-[40px] py-3 text-center text-[#000000]  border-[2px] border-[#CFCFCF]  justify-center rounded-full flex items-center font-semibold text-[16px] f">

@@ -6,13 +6,18 @@ import img4 from "../../assets/Notes/399010_10151170752048874_483975833_n 1.png"
 import img5 from "../../assets/Notes/unnamed 1.png";
 import img6 from "../../assets/Notes/106046609_10158285942070907_7859076810884144613_n 1.png";
 import StarRatings from "react-star-ratings";
-import { Link } from "react-router-dom";
-import { CgArrowLongLeft, CgArrowLongRight } from "react-icons/cg";
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 import arrow from "../../assets/Logo/Arrow 1.png";
 import arrow3 from "../../assets/Logo/Arrow 3.svg";
 import arrow11 from "../../assets/Logo/Arrow 11.svg";
 import edit from "../../assets/Logo/notesss.svg";
+import star1 from "../../assets/star/star.svg";
+import star11 from "../../assets/star/1.2.png";
+import star2 from "../../assets/star/2.png";
+import star3 from "../../assets/star/Group 85.png";
+import star4 from "../../assets/star/Group 54.png";
+import star5 from "../../assets/star/Group 84.png";
+import star6 from "../../assets/star/Group 87.png";
+import star56 from "../../assets/star/Group 56.png";
 export default function Notices() {
   return (
     <div>
@@ -29,14 +34,14 @@ export default function Notices() {
                 Entreprise de vente au détail
               </p>
               <div className="ratting">
-                <div className="flex gap-[7px] justify-center items-center py-[20px] color_box1">
-                  <StarRatings
-                    rating={4.403}
-                    starRatedColor="#43A047"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="2px"
-                  />
+                <div className="flex gap-[7px]  items-center py-[20px] color_box1">
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star1} alt="" />
+                    <img src={star1} alt="" />
+                    <img src={star1} alt="" />
+                    <img src={star1} alt="" />
+                    <img src={star11} alt="" />
+                  </div>
                   <div className="round"></div>
                   <h5 className=" font-semibold 2xl:text-[13px] text-[13px] text-[#43A047]">
                     EXCELLENT
@@ -89,13 +94,9 @@ export default function Notices() {
               </p>
               <div className="ratting">
                 <div className="flex gap-[7px] items-center py-[20px] color_box2">
-                  <StarRatings
-                    rating={2.403}
-                    starRatedColor="#FCD700"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="2px"
-                  />
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star2} alt="" />
+                  </div>
                   <div className="round1"></div>
                   <h5 className="font-semibold 2xl:text-[13px] text-[13px] text-[#FCD700]">
                     MOYEN
@@ -147,13 +148,9 @@ export default function Notices() {
               </p>
               <div className="ratting">
                 <div className="flex gap-[7px]  items-center pt-[20.2px] pb-[19.8px] color_box3 ">
-                  <StarRatings
-                    rating={4}
-                    starRatedColor="#7B1FA2"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="3px"
-                  />
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star3} alt="" />
+                  </div>
                   <div className="round2"></div>
                   <h5 className=" font-semibold 2xl:text-[13px] text-[13px] text-[#7B1FA2]">
                     BON
@@ -205,13 +202,13 @@ export default function Notices() {
               </p>
               <div className="ratting">
                 <div className="flex gap-[7px] justify-center items-center py-[20px] color_box4">
-                  <StarRatings
-                    rating={2}
-                    starRatedColor="#FF7A00"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="3px"
-                  />
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star4} alt="" />
+                    <img src={star4} alt="" />
+                    <img src={star56} alt="" />
+                    <img src={star56} alt="" />
+                    <img src={star56} alt="" />
+                  </div>
                   <div className="round3"></div>
                   <h5 className=" font-semibold 2xl:text-[13px] text-[13px] text-[#FF7A00]">
                     DÉCEVANT
@@ -263,13 +260,9 @@ export default function Notices() {
               </p>
               <div className="ratting">
                 <div className="flex gap-[7px] justify-center items-center py-[20px] color_box5">
-                  <StarRatings
-                    rating={1}
-                    starRatedColor="#EA0000"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="3px"
-                  />
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star5} alt="" />
+                  </div>
                   <div className="round4"></div>
                   <h5 className=" font-semibold 2xl:text-[13px] text-[13px] text-[#EA0000]">
                     MÉDIOCRE
@@ -321,13 +314,9 @@ export default function Notices() {
               </p>
               <div className="ratting">
                 <div className="flex gap-[7px] justify-center items-center py-[20px] color_box6">
-                  <StarRatings
-                    rating={2}
-                    starRatedColor="#FCD700"
-                    starDimension="12px"
-                    numberOfStars={5}
-                    starSpacing="3px"
-                  />
+                  <div className="flex gap-[2px] items-center h-[20px]">
+                    <img src={star6} alt="" />
+                  </div>
                   <div className="round5"></div>
                   <h5 className=" font-semibold 2xl:text-[13px] text-[13px] text-[#FCD700]">
                     MOYEN

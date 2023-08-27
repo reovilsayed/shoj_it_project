@@ -16,8 +16,8 @@ export default function Navbar() {
   const [checkOut, setCheckOut] = useState(false);
   const [finalModal, setFinalModal] = useState(false);
   return (
-    <div className=" pt-[17px] bg-[var(--header-bg-color)] cursor-pointer">
-      <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
+    <div className=" pt-[24px] bg-[var(--header-bg-color)] cursor-pointer">
+      <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full 2xl:h-[44px]  mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative  ">
         <div className="2xl:flex xl:flex lg:flex flex justify-between items-center">
           {/* mobile view */}
           <div className="2xl:hidden xl:hidden lg:hidden md:block sm:block block">
@@ -42,7 +42,7 @@ export default function Navbar() {
           <div
             className={`2xl:flex xl:flex lg:flex 2xl:static xl:static lg:static absolute top-[200px] 2xl:bg-inherit xl:bg-inherit lg:bg-inherit bg-slate-300 ${
               show ? "left-0" : "-left-[600px]"
-            } justify-between items-center 2xl:w-full xl:w-full lg:w-full w-[50%] rounded-lg 2xl:duration-0 xl:duration-0 lg:duration-0 duration-700`}
+            } justify-between items-center 2xl:w-full xl:w-full lg:w-full w-[50%] rounded-lg 2xl:duration-0 xl:duration-0 lg:duration-0 duration-700 z-50`}
           >
             <div className="nav_logo 2xl:flex xl:flex lg:flex items-center">
               <div className="2xl:block xl:block lg:block text-center 2xl:py-0 xl:py-0 lg:py-0 py-5">
