@@ -18,9 +18,9 @@ export default function HeroSection() {
     }
   };
   return (
-    <div className="pt-[60px] bg-[#EAF4FC]">
+    <div className="pt-[60px] bg-[#EAF4FC] rounded-b-[55px]">
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4  relative">
-        <div className="hero_wrapper flex 2xl:pb-10 xl:pb-10 lg:pb-10 pb-5">
+        <div className="hero_wrapper flex 2xl:pb-10 xl:pb-10 lg:pb-10 pb-5 ">
           <div className="hero_description 2xl:w-1/2 xl:w-1/2 lg:w-1/2 w-full">
             <p className=" leading-[30px] 2xl:leading-[52px] 2xl:text-[48px] xl:text-[28px] xl:leading-[33px] lg:text-[30px] text-[20px] text-[#000066] font-bold 2xl:pb-[40px] xl:pb-[20px] 2xl:w-[867px] pt-[28px] ">
               Noty - Votre guide de confiance pour les services et produits en
