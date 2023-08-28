@@ -8,7 +8,7 @@ export default function CategorySection() {
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
         <div>
           <div className="category_heading ">
-            <div className="lg:flex justify-between items-center mb-[18px]">
+            <div className="lg:flex justify-between items-center mb-[24px]">
               <h2 className="2xl:text-[32px] xl:text-[32px] lg:text-[32px] text-[#003] font-semibold  ">
                 Explorez par Catégorie
               </h2>
@@ -19,7 +19,7 @@ export default function CategorySection() {
                 <img className="w-[20px]" src={arrow} alt="" />
               </div>
             </div>
-            <p className="text-[#4F637B] font-medium leading-6 text-[17px]">
+            <p className="text-[#4F637B] font-medium leading-6 text-[16px]">
               Découvrez les entreprises et produits les mieux notés dans chaque
               catégorie et trouvez exactement ce que vous cherchez.
             </p>

@@ -75,6 +75,15 @@ p {
 .common_btn {
   background: var(--gradient-background);
 }
+.uncommon_btn2 {
+  border-radius: 53px;
+  border: 1px solid #CFCFCF;
+  background: #FFF; 
+  color: #000;
+}
+.uncommon_btn {
+  background: #006;
+}
 .cross_btn:hover {
   color: #000000 !important;
   cursor: pointer;
@@ -226,4 +235,10 @@ p {
 .custom-image-size {
   width: 770px;
   height: 471px;
+  margin-left: 5px;
+}
+
+.css-1e8dhvr-MuiChip-root{
+  background-color: none !important;
+  color: #666 !important;
 }

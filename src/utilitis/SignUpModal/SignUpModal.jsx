@@ -18,7 +18,7 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
       />
       <div className="signUp_container w-[372px] mx-auto pt-[72px]">
         <div>
-          <h3 className=" text-[16px] font-semibold text-[#000] 2xl:pb-[14px] xl:pb-3 pb-3 ">
+          <h3 className=" text-[16px] font-semibold text-[#000] 2xl:pb-[17px] xl:pb-3 pb-3 ">
             Connectez-vous à votre compte
           </h3>
           <p className="text-[#666] font-medium text-[14px] 2xl:pb-[47px] pb-5">
@@ -47,7 +47,7 @@ export default function SignUpModal({ setOpen, setSubModal, open }) {
           </div>
           {/* google */}
           {/* divider */}
-          <div className="2xl:pt-[43px] pt-4 2xl:pb-[43px]  pb-4">
+          <div className="2xl:pt-[20px] pt-4 2xl:pb-[27px]  pb-4">
             <Divider>
               <Chip label="Ou bien" />
             </Divider>

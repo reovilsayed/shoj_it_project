@@ -72,7 +72,7 @@ export default function Footer() {
             <div className="flex justify-between items-center h-[58px]">
               <div className="flex items-center justify-center footer_text">
                 <p className="flex items-center  text-white text-[16px] font-[500] mr-[10px]">
-                  &copy;2023 Noty - Tous droits réservés.
+                  &copy; 2023 Noty - Tous droits réservés.
                 </p>
                 <div className="flex items-center">
                   <svg width="2" height="22" viewBox="0 0 2 22" fill="none" xmlns="http://www.w3.org/2000/svg">
