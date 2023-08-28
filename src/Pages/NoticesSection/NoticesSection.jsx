@@ -3,7 +3,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import Notices from "./Notices";
 export default function NoticesSection() {
   return (
-    <div className="bg-[#F2F2F2] pt-[56px]">
+    <div className="bg-[#F2F2F2] pt-[67px]">
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
         <div>
           <div className="category_heading flex justify-between items-center">

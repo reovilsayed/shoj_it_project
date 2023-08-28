@@ -7,14 +7,14 @@ export default function Text() {
   return (
     <div className="2xl:flex justify-center relative">
       <div
-        className={`2xl:w-[456px]  ${
+        className={`2xl:w-[456px]   ${
           text.length === 0 && "h-[65px]"
         } xl:w-[300px] lg:w-[300px] md:w-[300px] w-full  bg-transparent ${
           text.length > 0 && "bg-white box_shadow_input"
         } border-[2px] border-[#000066] ${
           text.length > 0 ? "rounded-[28px]" : "rounded-[62px]  "
         }`}
-      >
+      > 
         <div className={`relative px-[16px] ${text.length > 0 && "px-[19px]"}`}>
           <input
             onChange={(e) => setText(e.target.value)}
@@ -26,10 +26,10 @@ export default function Text() {
               text.length > 0 ? "h-[65px]" : "h-[62px] "
             } ${
               text.length > 0 && "border-b-[2px] border-[#EFEFEF]"
-            }  w-full bg-transparent  placeholder:text-[#667799] `}
+            }  w-full bg-transparent  placeholder:text-[rgb(102,119,153)] `}
           />
           {text.length > 0 && (
-            <button className=" absolute right-[6px] top-[7px] rounded-3xl px-5 bg-[#DAE4FF] py-[10px] text-[#000099] font-semibold">
+            <button className=" absolute right-[5px] top-[5px] h-[55px] w-[120px] rounded-3xl px-[9px] bg-[#DAE4FF] py-[11px] text-[#000099] text-[15px] font-semibold">
               Rechercher
             </button>
           )}

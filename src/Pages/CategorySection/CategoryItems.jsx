@@ -28,7 +28,7 @@ export default function CategoryItems() {
           src={category2}
           alt="category2"
         />
-        <h3 className="pt-[22.98px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[22.98px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Restaurants
         </h3>
       </div>
@@ -39,7 +39,7 @@ export default function CategoryItems() {
           src={category3}
           alt="category3"
         />
-        <h3 className="pt-[23.37px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23.37px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Services de Location de Voitures
         </h3>
       </div>
@@ -50,7 +50,7 @@ export default function CategoryItems() {
           src={category7}
           alt="category3"
         />
-        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Boutique en Ligne
         </h3>
       </div>
@@ -62,7 +62,7 @@ export default function CategoryItems() {
           src={category4}
           alt="category4"
         />
-        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Banques et Services Financière
         </h3>
       </div>
@@ -73,7 +73,7 @@ export default function CategoryItems() {
           src={category5}
           alt="category6"
         />
-        <h3 className="pt-[23.5px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23.5px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Bijouteries
         </h3>
       </div>
@@ -84,7 +84,7 @@ export default function CategoryItems() {
           src={category6}
           alt="category7"
         />
-        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Magasins de Meubles
         </h3>
       </div>
@@ -95,7 +95,7 @@ export default function CategoryItems() {
           src={category8}
           alt="category3"
         />
-        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[19px] text-[#000] lg:text-[14px]">
+        <h3 className="pt-[23px] font-semibold tracking-normal 2xl:text-[17px] text-[17px] text-[#000] lg:text-[17px]">
           Agences de Voyage
         </h3>
       </div>

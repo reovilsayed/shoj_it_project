@@ -223,3 +223,7 @@ p {
   -webkit-tap-highlight-color: transparent !important;
   z-index: -1;
 }
+.custom-image-size {
+  width: 770px;
+  height: 471px;
+}

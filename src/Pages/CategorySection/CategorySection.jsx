@@ -4,7 +4,7 @@ import arrow from "../../assets/Logo/Arrow 2.svg";
 import CategoryItems from "./CategoryItems";
 export default function CategorySection() {
   return (
-    <div className="bg-[#F7FAFC] pt-[52px]">
+    <div className="bg-[#F7FAFC] pt-[67px]">
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1320px] xl:mx-auto lg:w-[1320px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0 px-4 relative">
         <div>
           <div className="category_heading ">
