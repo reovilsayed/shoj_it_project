@@ -22,16 +22,16 @@ export default function HeroSection() {
       <div className="nav_container 2xl:w-[1542px] 2xl:mx-auto xl:w-[1542px] 2xl:h-[582px] xl:mx-auto lg:w-[1542px] w-full mx-auto 2xl:px-0 xl:px-0 lg:px-0   relative px-0">
         <div className="hero_wrapper flex 2xl:pb-0 xl:pb-10 lg:pb-10 pb-5   relative">
           <div className="hero_description 2xl:w-1/2 xl:w-1/2 lg:w-1/2 w-full ">
-            <h1 className=" 2xl:w-[867px] xl:w-[867px] 2xl:h-[93px] xl:h-[93px] w-full h-auto font-bold text-[48px]  flex   mt-[87px] leading-[58px] text-[#006] ">
+            <h1 className=" 2xl:w-[867px] xl:w-[867px] 2xl:h-[93px] xl:h-[93px] w-full h-auto font-bold text-[48px]  flex   mt-[87px] leading-[58px] text-[#006] hero-heading">
               Noty - Votre guide de confiance pour les services et produits en
               Tunisie.{" "}
             </h1>
-            <p className=" pt-[66px] text-[24px] text-[#679] font-semibold 2xl:leading-[0px] leading-7">
+            <p className=" pt-[66px] text-[24px] text-[#679] font-semibold 2xl:leading-[0px] leading-7 hero-para">
               Trouvez les meilleurs produits et services en un seul endroit.
             </p>
             <form
               onChange={handelChange}
-              className="2xl:flex xl:block lg:block md:block items-center gap-[15px] pt-[132px] 2xl:absolute xl:absolute z-40"
+              className="2xl:flex xl:block lg:block md:block items-center gap-[15px] pt-[130px] 2xl:absolute xl:absolute z-40"
             >
               <Text />
               <div className="flex items-center gap-1 2xl:w-[230px] w-[230px]   2xl:h-[65px]   common_btn rounded-full text-white justify-center font-semibold text-[16px] 2xl:mt-0 mt-5 2xl:absolute xl:absolute 2xl:left-[470px] xl:left-[330px] 2xl:top-[132px] xl:top-[132px]">

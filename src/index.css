@@ -242,3 +242,11 @@ p {
   background-color: none !important;
   color: #666 !important;
 }
+.hero-heading{
+  position: relative;
+  left:-3px;
+}
+.hero-para{
+  position: relative;
+  left:-1px;
+}
